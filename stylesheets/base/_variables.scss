@@ -1,0 +1,60 @@
+//--- Brand Colors
+$text-color:                            #555;
+$text-medium:                           #777;
+$text-light:                            #ccc;
+
+$page-bg:                               white;
+
+$border-default:                        #ccc;
+
+
+//--- Spacing
+$gap-xs: 0.5rem;
+$gap-sm: 1rem;
+$gap:    2rem;
+$gap-md: 3rem;
+$gap-lg: 4rem;
+
+
+//--- Footer Styles
+$footer-bg:                             #333333;
+$footer-color:                          rgba(white,0.6);
+$footer-border:                         transparent;
+$footer-top-margin:                     0;
+$footer-vert-padding:                   20px;
+$footer-height:                         20px;
+
+
+//--- Bootstrap variables
+$font-family-sans-serif:                $font-regular !default;
+$icon-font-path:                        "../fonts/";
+
+$grid-gutter-width:                     20px;
+
+$navbar-height:                         40px;
+$navbar-link-pad-side:                  26px;
+
+$navbar-default-color:                  white;
+$navbar-default-bg:                     $brand-primary;
+$navbar-default-border:                 $brand-primary;
+$navbar-default-link-color:             white;
+$navbar-default-link-hover-color:       white;
+$navbar-default-link-hover-bg:          darken($brand-primary,5%);
+$navbar-default-link-active-color:      white;
+$navbar-default-link-active-bg:         darken($brand-primary,5%);
+$navbar-default-link-disabled-color:    rgba(white,0.4);
+$navbar-default-link-disabled-bg:       transparent;
+$navbar-default-brand-color:            white;
+$navbar-default-brand-hover-color:      white;
+$navbar-default-brand-hover-bg:         transparent;
+$navbar-default-toggle-hover-bg:        transparent;
+$navbar-default-toggle-icon-bar-bg:     white;
+$navbar-default-toggle-border-color:    white;
+
+$nav-link-font-size:                    15px;
+$nav-link-padding:                      10px 15px;
+$nav-link-hover-bg:                     transparent;
+
+
+
+

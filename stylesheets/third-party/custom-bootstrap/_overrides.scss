@@ -1,0 +1,15 @@
+.dropdown-menu {
+	.dropdown-header:not(:first-of-type){
+		margin-top:$gap-sm
+	}
+}
+
+
+.table {
+	border-collapse:collapse;
+}
+
+.modal-header .modal-title {
+	font-size:18px;
+	@include font-medium;
+}
