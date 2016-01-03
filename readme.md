@@ -21,5 +21,5 @@ VisualForce
 ##Please note:
 ####Editing CSS files directly is a bad life decision!
 If you must do such a thing, please create a separate branch.
-With the exception of some third-party plug-ins or frameworks, all of the CSS has been compiled from the SCSS files located in `/dev/stylesheets` folder.
+With the exception of some third-party plug-ins or frameworks, all of the CSS has been compiled from the .scss or .styl files located in `/stylesheets` folder.
 
