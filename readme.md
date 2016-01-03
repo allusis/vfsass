@@ -15,6 +15,7 @@ VisualForce
 ####Packages (managed by Bower):
 + Bootstrap Sass - 3.3.5
 + Bourbon - 4.2.3
+
 ---
 
 ##Please note:
