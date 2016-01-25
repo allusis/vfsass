@@ -8,3 +8,4 @@
 *.sass-cache
 */*/*.css.map
 readme.html
+.config.codekit
