@@ -4,8 +4,6 @@
 						 font-smooth:always;
 }
 
-$font-regular: "Roboto", sans-serif;
-
 @mixin font-regular {
 	font-family:$font-regular;
 	font-weight:400;
@@ -22,7 +20,6 @@ $font-regular: "Roboto", sans-serif;
 	font-family:$font-regular;
 	font-weight:700;
 }
-
 
 h1,h2,h3,h4 {
 	font-family:$font-regular;

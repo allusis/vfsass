@@ -1,10 +1,20 @@
+/* -----------------------------------------------------------------------------
+   This is a custom copy of Bootstrap 3. There are a lot of components that
+   were dropped, or manipulated specifically for SFDC.
+
+   To add components
+   1. go to: /stylesheets/third-party/bootstrap.scss
+   2. Uncomment components
+   3. Compile Sass, (install bower_components if they weren't included)
+ ----------------------------------------------------------------------------- */
+
+// Our variables for bootstrap styles
+@import "../base/variables";
+@import "../base/typography";
+
 // Core variables and mixins
 @import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 @import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/variables";
-
-// Our variables for bootstrap styles
-@import "../base/typography";
-@import "../base/variables";
 
 // Reset
 //@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/normalize";

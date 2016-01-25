@@ -1,14 +1,19 @@
-@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+// Use autoprefixer instead
+// @import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
 
 @import "../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 @import "../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/variables";
 
-@import "base/typography";
 @import "base/variables";
+@import "base/typography";
 
 @import "base/mixins";
 @import "base/selectors";
 @import "base/functions";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/page";
 
 @import "modules/buttons";
 
@@ -17,7 +22,6 @@
 //@import "state/debug";
 //@import "state/base-holdit";
 @import "state/animation";
-@import "state/media";
 
 /*
 __      ________   _________          ______   _____
@@ -32,6 +36,6 @@ MODIFYING THE CONTENTS OF THE MAIN.CSS FILE
 DIRECTLY IS A POOR LIFE DECISION.
 
 Last compiled on:
-2016-01-03T06:02:17Z
+2016-01-25T21:24:47Z
 
 */
