@@ -1,4 +1,13 @@
-#VFSass - The no-conflict Bootstrap base
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    |||██╗|||██╗███████╗|||███████╗|█████╗|███████╗███████╗|||
+    |||██║|||██║██╔════╝|||██╔════╝██╔══██╗██╔════╝██╔════╝|||
+    |||██║|||██║█████╗|||||███████╗███████║███████╗███████╗|||
+    |||╚██╗|██╔╝██╔══╝|||||╚════██║██╔══██║╚════██║╚════██║|||
+    ||||╚████╔╝|██║||||||||███████║██║||██║███████║███████║|||
+    |||||╚═══╝||╚═╝||||||||╚══════╝╚═╝||╚═╝╚══════╝╚══════╝|||
+    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+#The no-conflict Bootstrap base
 ###Built for VisualForce pages
 
 + Supports standard Salesforce stylesheets
@@ -24,6 +33,8 @@ MIT License - See license.txt
 ####Please note: Editing the the css files directly is a bad life choice if you plan on compiling ever again.
 If you must do such a thing, create a separate file to prevent issues when the base stylesheets are compiled.
 With the exception of some third-party plug-ins or frameworks, all of the CSS has been compiled from the .scss or .styl files located in `/stylesheets` folder.
+
+
 
 
 
