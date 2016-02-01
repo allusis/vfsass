@@ -1,0 +1,16 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false" applyHtmlTag="false" applyBodyTag="false">
+    <!-- Using title here instead of the template so that we can change page names later -->
+    <title>Page Name</title>
+
+    <!-- composition template should match the name of your template page -->
+    <apex:composition template="sample-template">
+        <apex:define name="body">
+
+            <main>
+                Content here
+            </main>
+
+        </apex:define>
+
+    </apex:composition>
+</apex:page>

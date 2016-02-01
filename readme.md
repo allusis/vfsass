@@ -1,21 +1,18 @@
-#VisualForce Bootstrap Base
-###Built for:
-VisualForce
+#VFSass - The no-conflict Bootstrap base
+###Built for VisualForce pages
+
++ Supports standard Salesforce stylesheets
++ Loads of veriables for fast site-wide adjustments
++ Ready to be zipped and used a static-resource
 
 ####Development prerequisites:
 + NPM
 + Bower
 + Ruby Sass
 
-####Viewing prerequisites:
-+ A browser that can handle HTML Imports:
-[Check for support](http://caniuse.com/#feat=imports)
-
-
 ####Packages (managed by Bower):
-+ Bootstrap Sass - 3.3.5
-+ Bourbon - 4.2.3
-
++ Bootstrap Sass - 3.3.6
++ jQuery - 2.2.0
 ---
 
 ##Please note:
@@ -23,3 +20,5 @@ VisualForce
 If you must do such a thing, please create a separate branch.
 With the exception of some third-party plug-ins or frameworks, all of the CSS has been compiled from the .scss or .styl files located in `/stylesheets` folder.
 
+####License
+MIT License - See license.txt

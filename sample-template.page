@@ -1,0 +1,31 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false" applyHtmlTag="false" applyBodyTag="false" >
+    <html dir="ltr" lang="en-US" >
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+            <apex:stylesheet value="{!URLFOR($Resource.vfsass, 'css/main.css')}"/>
+        </head>
+
+        <body>
+
+            <header>
+                <div class="container-bs">
+                    <a href="/"><img src="img/vfsass.svg" alt="VF Sass" class="logo" /></a>
+                </div><!-- /.container-bs -->
+            </header>
+
+            <!-- This is where your content pages will show up -->
+            <apex:insert name="body"/>
+
+            <!-- Sample Component reference
+            <c:Footer /> 
+            -->
+
+            <script src="{!URLFOR($Resource.vfsass, 'bower_components/jquery/dist/jquery.min.js')}"></script>
+            <script src="{!URLFOR($Resource.vfsass, 'bower_components/twbs-bootstrap-sass/assets/javascripts/bootstrap.min.js')}"></script>
+            <script src="{!URLFOR($Resource.vfsass, 'js/main.min.js')}"></script>
+
+        </body>
+    </html>
+</apex:page>
