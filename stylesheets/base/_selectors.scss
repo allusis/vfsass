@@ -4,7 +4,7 @@ html {
 	box-sizing: border-box;
 }
 body {
-	@include font-smoothing;
+	font-smooth:always;
 	text-rendering: optimizeLegibility;
 	margin:0;
 	font-family:$font-regular;

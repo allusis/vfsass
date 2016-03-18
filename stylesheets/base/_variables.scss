@@ -22,13 +22,16 @@ $border-default:                        #ccc;
 
 //-- Font's
 $font-regular:                          "Roboto", sans-serif;
+$font-light:                            300;
+$font-medium:                           500;
+$font-bold:                             600;
 
 //--- Spacing
-$gap-xs: 0.5rem;
-$gap-sm: 1rem;
-$gap:    2rem;
-$gap-md: 3rem;
-$gap-lg: 4rem;
+$gap-xs: 5px;
+$gap-sm: 10px;
+$gap:    20px;
+$gap-md: 30px;
+$gap-lg: 40px;
 
 
 //--- Footer Styles
