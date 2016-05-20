@@ -1,7 +1,6 @@
-.btn-primary {
+.btn-bs {
 	border-radius:0;
 	border:0;
-	text-transform:uppercase;
-	@include font-bold;
+	font-weight:$font-weight-bd;
 }
 

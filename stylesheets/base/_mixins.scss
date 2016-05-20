@@ -26,12 +26,6 @@
 					filter:drop-shadow($dropshadow);
 }
 
-@mixin ul-reset {
-	list-style:none;
-	margin:0;
-	padding:0;
-}
-
 @mixin vertical-align($position) {
 	position:$position;
 	top: 50%;

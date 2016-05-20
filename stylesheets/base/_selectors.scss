@@ -6,6 +6,8 @@ html {
 body {
 	font-smooth:always;
 	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 	margin:0;
 	font-family:$font-regular;
 	font-size:14px;
@@ -18,7 +20,9 @@ a {
 	&:hover {text-decoration:underline}
 }
 
-label {@include font-medium}
+label {
+	font-weight:$font-weight-md;
+}
 
 hr {
 	border:0;

@@ -1,25 +1,19 @@
 @charset "UTF-8";
-h1, h2, h3, h4 { font-family: "Roboto", sans-serif; }
-
 html { position: relative; min-height: 100%; box-sizing: border-box; }
 
-body { -webkit-font-smoothing: antialiased; font-smoothing: antialiased; font-smooth: always; text-rendering: optimizeLegibility; margin: 0; font-family: "Roboto", sans-serif; font-size: 14px; }
+body { font-smooth: always; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0; font-family: "Roboto", sans-serif; font-size: 14px; }
 
 a { cursor: pointer; -webkit-transition: all 0.15s ease; transition: all 0.15s ease; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
-label { font-family: "Roboto", sans-serif; font-weight: 500; }
+label { font-weight: 500; }
 
-hr { border: 0; height: 1px; background: #ccc; margin: 2rem 0; }
+hr { border: 0; height: 1px; background: #ddd; margin: 2rem 0; }
 
 *, *:before, *:after { box-sizing: inherit; }
 
-body { margin: 0 0 20px; }
-
-footer { position: absolute; width: 100%; bottom: 0; left: 0; height: 20px; }
-
-.btn-primary { border-radius: 0; border: 0; text-transform: uppercase; font-family: "Roboto", sans-serif; font-weight: 700; }
+.btn-bs { border-radius: 0; border: 0; font-weight: 600; }
 
 /*
 
@@ -34,8 +28,5 @@ footer { position: absolute; width: 100%; bottom: 0; left: 0; height: 20px; }
 
 MODIFYING THE CONTENTS OF THE MAIN.CSS FILE
 DIRECTLY IS A POOR LIFE DECISION.
-
-Last compiled on:
-2016-02-01T07:49:19Z
 
 */
