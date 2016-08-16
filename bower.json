@@ -1,9 +1,10 @@
 {
   "name": "vftwbs-sass",
-  "version": "0.2.4",
+  "version": "0.2.9",
   "author": "Tony Montemorano <tony@allusis.net> (http://allusis.net)",
   "dependencies": {
-    "twbs-bootstrap-sass": "3.3.6"
+    "twbs-bootstrap-sass": "latest",
+    "fancyselect": "latest"
   },
   "private": true
 }

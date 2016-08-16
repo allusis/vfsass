@@ -1,10 +1,8 @@
 // Use autoprefixer instead
 // @import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
-
-@import "../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/mixins";
-@import "../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/variables";
-
 @import "base/variables";
+
+@import "third-party/bootstrap";
 
 @import "base/mixins";
 @import "base/selectors";
@@ -23,17 +21,6 @@
 @import "state/animation";
 
 /*
-
-||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-|||██╗|||██╗███████╗|||███████╗|█████╗|███████╗███████╗|||
-|||██║|||██║██╔════╝|||██╔════╝██╔══██╗██╔════╝██╔════╝|||
-|||██║|||██║█████╗|||||███████╗███████║███████╗███████╗|||
-|||╚██╗|██╔╝██╔══╝|||||╚════██║██╔══██║╚════██║╚════██║|||
-||||╚████╔╝|██║||||||||███████║██║||██║███████║███████║|||
-|||||╚═══╝||╚═╝||||||||╚══════╝╚═╝||╚═╝╚══════╝╚══════╝|||
-||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-
 MODIFYING THE CONTENTS OF THE MAIN.CSS FILE
 DIRECTLY IS A POOR LIFE DECISION.
-
 */

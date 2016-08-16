@@ -8,10 +8,6 @@
    3. Compile Sass, (install bower_components if they weren't included)
  ----------------------------------------------------------------------------- */
 
-// Our variables for bootstrap styles
-@import "../base/variables";
-@import "../base/typography";
-
 // Core variables and mixins
 @import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 @import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/variables";
@@ -63,6 +59,3 @@
 // Utility classes
 @import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
-
-
-@import "custom-bootstrap/overrides";
