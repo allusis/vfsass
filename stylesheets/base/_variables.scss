@@ -1,27 +1,9 @@
-//== Colors
-$gray-base:                  #000 !default;
-$gray-darker:                lighten($gray-base, 13.5%);
-$gray-dark:                  lighten($gray-base, 20%);
-$gray:                       lighten($gray-base, 33.5%);
-$gray-light:                 lighten($gray-base, 46.7%);
-$gray-lighter:               lighten($gray-base, 93.5%);
-
-$brand-primary:              darken(#428bca, 6.5%);
-$brand-success:              #5cb85c;
-$brand-info:                 #5bc0de;
-$brand-warning:              #f0ad4e;
-$brand-danger:               #d9534f;
-
-$text-color:                 #555;
-$text-medium:                #777;
-$text-light:                 #ccc;
-
 $page-bg:                    white;
 
 $border-default:             #ddd;
 
 //-- Font's
-$font-regular:               "Roboto", sans-serif;
+$font-regular:               "Roboto";
 $font-weight-lt:             300;
 $font-weight-md:             500;
 $font-weight-bd:             600;
@@ -35,5 +17,29 @@ $gap-lg:                     40px;
 
 
 //--- Bootstrap variables
-$font-family-sans-serif:     $font-regular !default;
+$gray-dark:                 #373a3c;
+$gray:                      #55595c;
+$gray-light:                #818a91;
+$gray-lighter:              #eceeef;
+$gray-lightest:             #f7f7f9;
+
+$brand-primary:             #0275d8;
+$brand-success:             #5cb85c;
+$brand-info:                #5bc0de;
+$brand-warning:             #f0ad4e;
+$brand-danger:              #d9534f;
+$brand-inverse:             $gray-dark;
+
+$font-size-root:             14px;
+$font-family-sans-serif:     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, $font-regular, "Helvetica Neue", sans-serif;
 $grid-gutter-width:          20px;
+
+$btn-font-weight:            $font-weight-md;
+
+$btn-primary-color:          #fff;
+$btn-primary-bg:             $brand-primary;
+$btn-primary-border:         $btn-primary-bg;
+
+$btn-secondary-color:        $gray-dark;
+$btn-secondary-bg:           #fff;
+$btn-secondary-border:       #ccc;

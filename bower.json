@@ -3,7 +3,8 @@
   "version": "0.2.4",
   "author": "Tony Montemorano <tony@allusis.net> (http://allusis.net)",
   "dependencies": {
-    "twbs-bootstrap-sass": "3.3.6"
+    "bootstrap": "v4.0.0-alpha.3",
+    "fancyselect": "latest"
   },
   "private": true
 }

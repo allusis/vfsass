@@ -1,68 +1,48 @@
-/* -----------------------------------------------------------------------------
-   This is a custom copy of Bootstrap 3. There are a lot of components that
-   were dropped, or manipulated specifically for SFDC.
-
-   To add components
-   1. go to: /stylesheets/third-party/bootstrap.scss
-   2. Uncomment components
-   3. Compile Sass, (install bower_components if they weren't included)
- ----------------------------------------------------------------------------- */
-
-// Our variables for bootstrap styles
-@import "../base/variables";
-@import "../base/typography";
-
 // Core variables and mixins
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/mixins";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/variables";
 
-// Reset
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/normalize";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/print";
+@import "../base/variables";
+@import "../../bower_components/bootstrap/scss/variables";
+@import "../../bower_components/bootstrap/scss/mixins";
+
+// Reset and dependencies
+@import "../../bower_components/bootstrap/scss/normalize";
+@import "../../bower_components/bootstrap/scss/print";
 
 // Core CSS
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/type";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "../../bower_components/bootstrap/scss/reboot";
+@import "../../bower_components/bootstrap/scss/type";
+@import "../../bower_components/bootstrap/scss/images";
+@import "../../bower_components/bootstrap/scss/code";
 @import "custom-bootstrap/grid";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/tables";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../../bower_components/bootstrap/scss/tables";
+@import "../../bower_components/bootstrap/scss/forms";
 @import "custom-bootstrap/buttons";
 
 // Components
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+@import "../../bower_components/bootstrap/scss/animation";
+@import "../../bower_components/bootstrap/scss/dropdown";
+@import "custom-bootstrap/button-group";
+@import "custom-bootstrap/input-group";
+@import "../../bower_components/bootstrap/scss/custom-forms";
+@import "../../bower_components/bootstrap/scss/nav";
+@import "../../bower_components/bootstrap/scss/navbar";
+@import "../../bower_components/bootstrap/scss/card";
+@import "../../bower_components/bootstrap/scss/breadcrumb";
+@import "../../bower_components/bootstrap/scss/pagination";
+@import "../../bower_components/bootstrap/scss/tags";
+@import "../../bower_components/bootstrap/scss/jumbotron";
+@import "../../bower_components/bootstrap/scss/alert";
+@import "../../bower_components/bootstrap/scss/progress";
+@import "../../bower_components/bootstrap/scss/media";
+@import "../../bower_components/bootstrap/scss/list-group";
+@import "../../bower_components/bootstrap/scss/responsive-embed";
+@import "../../bower_components/bootstrap/scss/close";
 
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
-//@import "custom-bootstrap/button-groups";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/navs";
-@import "custom-bootstrap/navbar";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/pagination";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/pager";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/labels";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/badges";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/alerts";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/media";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/list-group";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/panels";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/wells";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/close";
-
-// Components with JavaScript
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/modals";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/popovers";
-//@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+// Components w/ JavaScript
+@import "../../bower_components/bootstrap/scss/modal";
+@import "../../bower_components/bootstrap/scss/tooltip";
+@import "../../bower_components/bootstrap/scss/popover";
+@import "custom-bootstrap/carousel";
 
 // Utility classes
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/utilities";
-@import "../../bower_components/twbs-bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
-
-
-@import "custom-bootstrap/overrides";
+@import "../../bower_components/bootstrap/scss/utilities";
