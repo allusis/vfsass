@@ -20,9 +20,6 @@
 + Working on converting BS4 to a Visualforce friendly framework.
 + Working on jade templating for a style guide module
 
-####Development prerequisites:
-+ Bower
-+ The ability to compile SCSS. *cough* Codekit *cough*, or of course your command line.
 
 ####Packages (managed by Bower):
 + Bootstrap Sass - v4.0.0-alpha.3
