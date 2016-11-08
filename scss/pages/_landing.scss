@@ -1,0 +1,29 @@
+
+.landing-page-heading {
+	background:#666;
+	height:calc(100vh - 47px);
+	color:white;
+	padding:$gap;
+	//margin-bottom:$gap;
+	img {
+		width:100%;
+		max-width:400px;
+	}
+}
+
+.sample-nav {
+	display:flex;
+	flex-direction:column;
+	background:#eee;
+	padding:$gap;
+	@media (min-width:$screen-sm) {
+		margin-left:$gap-lg * 2;
+	}
+	> a {
+		font-size:16px;
+		padding:$gap-sm $gap-xs;
+		&:not(:last-of-type) {
+			border-bottom:1px solid #ddd;
+		}
+	}
+}

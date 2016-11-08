@@ -1,0 +1,26 @@
+.page-header {}
+.page-footer {}
+
+.flex {
+	&.sm {
+		@media (min-width:$screen-sm) {
+			display:flex;
+		}
+	}
+}
+
+.flex-everything {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100%;
+	small {
+		display:block;
+		font-size:14px;
+	}
+	a {
+		color:$brand-warning;
+		text-decoration:underline;
+		padding-left:$gap-xs;
+	}
+}

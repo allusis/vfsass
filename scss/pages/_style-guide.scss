@@ -1,0 +1,30 @@
+.style-guide {
+	padding-bottom:100px;
+	.list-group-item {
+		margin:-1px;
+	}
+	.page-title {
+		text-align:center;
+		font-size:68px;
+		font-weight:100;
+		padding-top:$gap-lg;
+		text-transform:uppercase;
+	}
+	.grid-example {
+		[class*="col-"] {
+			border:1px solid $brand-danger;
+		}
+		h3 {
+			margin-top:$gap-lg;
+		}
+	}
+	section {
+		padding-bottom:80px;
+		.title {
+			margin:$gap-md 0 $gap -3px;
+			font-size:44px;
+			font-weight:bold;
+			text-transform:uppercase;
+		}
+	}
+}
