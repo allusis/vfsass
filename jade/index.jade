@@ -1,21 +1,13 @@
 extends ./layout.jade
 
 block title
-	title Page Name
+	title VFSass
 
 block content
-	.container-bs
-		h1 The no-conflict Bootstrap base for Salesforce
-		ul
-			li Supports standard Salesforce stylesheets
-			li Loads of veriables for fast site-wide adjustments
-			li Ready to be zipped and used a static-resource
-		hr
-		h2 Change log:
-		ul
-			li
-				strong 05/19/2016
-				| - Adding Jade for templating, cleaning up broken SCSS references
-			li
-				strong 02/01/2016
-				| - Updated BS to 3.3.6, updated readme, updated sample template and vf page
+
+	.landing-page-heading
+		.container.flex-everything
+			h1 Hi
+				small There is a
+					a(href="style-guide.html") style guide
+

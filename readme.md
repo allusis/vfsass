@@ -21,8 +21,9 @@
 
 
 ####Packages (managed by Bower):
-+ Bootstrap Sass - 3.3.6
-+ jQuery - 2.2.0
++ Bootstrap Sass - v4.0.0-alpha.3
++ jQuery - 3.1.0
++ Fancyselect - latest
 
 
 ####License

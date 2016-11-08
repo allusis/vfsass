@@ -1,0 +1,41 @@
+.navbar {
+	border-radius:0;
+	height:50px;
+	.navbar-brand {
+		padding-right:$gap-md;
+		&:hover {
+			img {
+				opacity:1;
+			}
+		}
+		img {
+			height:24px;
+			opacity:0.7;
+		}
+	}
+	@media (min-width:$screen-sm) {
+		.navbar-nav {
+			display:flex;
+			.nav-item {
+				padding-left:$gap-sm;
+				padding-right:$gap-sm;
+				display:flex;
+				align-items:center;
+			}
+			.left {
+				margin-left:auto;
+				color:$brand-danger;
+				font-weight:600;
+				font-size:11px;
+				text-transform:uppercase;
+				a {
+					color:$brand-warning;
+					font-weight:600;
+					font-size:11px;
+					text-transform:uppercase;
+				}
+			}
+		}
+	}
+}
+
